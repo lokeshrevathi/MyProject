@@ -4,9 +4,6 @@ import java.util.regex.Pattern;
 
 class UtilValidation {
     static String regexName = "^[a-zA-Z]{2,15}[ ]?[a-zA-Z]{0,15}$";
-    static String regexDob = "^[0-3]{1}[0-9]{1}[-]{1}[0-1]{1}"
-                            .concat("[0-9]{1}[-]{1}[0-9]{1}")
-                            .concat("[0-9]{1}[0-9]{1}[0-9]{1}$");
     static String regexRole = "^[a-zA-Z]{2,15}[ ]?[a-zA-Z]{0,15}$";
     static String regexPhoneNo = "^[6-9]{1}[0-9]{9}$";
     static String regexMailId = "^[a-zA-Z]{1}[0-9a-zA-Z]{0,15}?[.\\-_]"
